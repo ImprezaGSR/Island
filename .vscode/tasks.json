@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SurvivalIsland Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Debug",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Debug",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SurvivalIsland Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Debug",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SurvivalIsland Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Development",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Development",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SurvivalIsland Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Development",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Test",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Test",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SurvivalIsland Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Test",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SurvivalIsland Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIsland Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SurvivalIsland",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIslandEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIslandEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIslandEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIslandEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SurvivalIslandEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIslandEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SurvivalIslandEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIslandEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIslandEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIslandEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIslandEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SurvivalIslandEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIslandEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SurvivalIslandEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIslandEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIslandEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIslandEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SurvivalIslandEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SurvivalIslandEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SurvivalIslandEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SurvivalIslandEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\yunyo\\Documents\\Unreal Projects\\SurvivalIsland\\SurvivalIsland.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		}
+	]
+}
